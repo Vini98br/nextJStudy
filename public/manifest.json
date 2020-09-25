@@ -13,5 +13,6 @@
   ],
   "display": "fullscreen",
   "scope": "/",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "splash_pages": null
 }
