@@ -49,8 +49,11 @@ export default class MyDocument extends Document {
           <link rel="manifest" href="/manifest.json" />
           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet" />
           <link rel="icon" href="/icons/favicon-32x32.png" />
-          <link rel='apple-touch-icon' sizes='180x180' href='/icons/favicon-32x32.png' />
-          <link rel='icon' type='image/png' sizes='16x16' href='/icons/favicon-32x32.png' />
+          <link rel='apple-touch-icon' sizes='512x512' href='/icons/favicon-512x512.png' />
+          <link rel='apple-touch-icon' sizes='384x384' href='/icons/favicon-384x384.png' />
+          <link rel='apple-touch-icon' sizes='192x192' href='/icons/favicon-192x192.png' />
+          <link rel='apple-touch-icon' sizes='144x144' href='/icons/favicon-144x144.png' />
+          <link rel='icon' type='image/png' sizes='32x32' href='/icons/favicon-32x32.png' />
         </Head>
         <body>
           <Main />
