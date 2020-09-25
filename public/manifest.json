@@ -1,0 +1,10 @@
+{
+  "name": "Next Study",
+  "short_name": "Next PWA",
+  "theme_color": "#FFFFFF",
+  "background_color": "#081A23",
+  "start_url": "/",
+  "display": "fullscreen",
+  "scope": "/",
+  "orientation": "portrait"
+}
