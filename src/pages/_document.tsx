@@ -37,7 +37,7 @@ export default class MyDocument extends Document {
           <meta name="theme-color" content="#081A23" />
           <link rel="manifest" href="/manifest.json" />
           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet" />
-          <link rel="icon" href="https://appmasters.io/favicon-32x32.png?v=3ccd160f1dfc60e8e824045ef4fffb6c" />
+          <link rel="icon" href="/icons/favicon-32x32.png" />
         </Head>
         <body>
           <Main />

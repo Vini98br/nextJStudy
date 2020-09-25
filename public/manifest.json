@@ -4,6 +4,13 @@
   "theme_color": "#FFFFFF",
   "background_color": "#081A23",
   "start_url": "/",
+  "icons": [
+    {
+      "src": "icons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
   "display": "fullscreen",
   "scope": "/",
   "orientation": "portrait"
