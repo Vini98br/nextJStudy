@@ -36,8 +36,8 @@
       "type": "image/png"
     }
   ],
-  "display": "fullscreen",
-  "scope": "/",
+  "display": "standalone",
+  "scope": "",
   "orientation": "portrait",
   "splash_pages": null
 }

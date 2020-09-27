@@ -33,7 +33,12 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt">
         <Head>
+
+
+
           <meta charSet="utf-8" />
+          <meta name='keywords' content='Keywords' />
+          <meta http-equiv='X-UA-Compatible' content='IE=edge' />
           <meta name="theme-color" content="#081A23" />
           <meta name='application-name' content='Next Study' />
           <meta name='apple-mobile-web-app-capable' content='yes' />
@@ -43,17 +48,19 @@ export default class MyDocument extends Document {
           <meta name='format-detection' content='telephone=no' />
           <meta name='mobile-web-app-capable' content='yes' />
           <meta name='msapplication-config' content='/static/icons/browserconfig.xml' />
-          <meta name='msapplication-TileColor' content='#2B5797' />
+          <meta name='msapplication-TileColor' content='#081A23' />
           <meta name='msapplication-tap-highlight' content='no' />
-          <meta name='theme-color' content='#000000' />
+          <title>NextJStudy</title>
           <link rel="manifest" href="/manifest.json" />
           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet" />
           <link rel="icon" href="/icons/favicon-32x32.png" />
-          <link rel='apple-touch-icon' sizes='512x512' href='/icons/favicon-512x512.png' />
-          <link rel='apple-touch-icon' sizes='384x384' href='/icons/favicon-384x384.png' />
-          <link rel='apple-touch-icon' sizes='192x192' href='/icons/favicon-192x192.png' />
-          <link rel='apple-touch-icon' sizes='144x144' href='/icons/favicon-144x144.png' />
-          <link rel='icon' type='image/png' sizes='32x32' href='/icons/favicon-32x32.png' />
+          <link href='/favicon-16x16.png' rel='icon' type='image/png' sizes='16x16' />
+          <link href='/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
+          <link rel="apple-touch-icon" href="/apple-icon.png"></link>
+          <link rel='apple-touch-icon' sizes='512x512' href='/favicon-512x512.png' />
+          <link rel='apple-touch-icon' sizes='384x384' href='/favicon-384x384.png' />
+          <link rel='apple-touch-icon' sizes='192x192' href='/favicon-192x192.png' />
+          <link rel='apple-touch-icon' sizes='144x144' href='/favicon-144x144.png' />
         </Head>
         <body>
           <Main />
